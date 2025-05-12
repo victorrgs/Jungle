@@ -1,77 +1,78 @@
 :root {
-    --bg-color: #0a0a0a;
-    --card-color: #1e1e1e;
-    --text-color: #f0f0f0;
-    --accent: #00bfff;
-    --title: #ffcc00;
-  }
-  
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    --bg: #0f0f0f;
+    --fg: #f0f0f0;
+    --title: #ffda4d;
   }
   
   body {
-    font-family: 'Segoe UI', sans-serif;
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    line-height: 1.6;
+    margin: 0;
+    font-family: sans-serif;
+    background: var(--bg);
+    color: var(--fg);
     padding: 1rem;
   }
   
-  header {
+  header, footer {
     text-align: center;
     margin-bottom: 2rem;
   }
   
   h1 {
-    font-size: 2.2rem;
-    color: var(--accent);
+    font-size: 2rem;
+    color: var(--title);
   }
   
-  header p {
-    color: #ccc;
-  }
-  
-  main {
-    display: grid;
-    gap: 1rem;
-    max-width: 800px;
-    margin: 0 auto;
+  .categoria {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    border-bottom: 1px solid #444;
+    padding-bottom: 0.2rem;
   }
   
   .nota {
-    background: var(--card-color);
-    padding: 1rem;
-    border-radius: 12px;
-    border: 1px solid #333;
+    margin: 1rem 0;
   }
   
-  .nota h2 {
+  .dropdown-btn {
+    background: none;
+    border: none;
     color: var(--title);
-    font-size: 1.3rem;
-    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+    padding: 0.7rem 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: color 0.3s;
   }
   
-  footer {
-    text-align: center;
-    margin-top: 3rem;
-    font-size: 0.9rem;
-    color: #666;
+  .dropdown-btn:hover {
+    color: #ffff88;
   }
   
-  @media (max-width: 600px) {
-    body {
-      padding: 0.5rem;
-    }
+  .seta {
+    font-size: 1rem;
+    color: #aaa;
+    transition: transform 0.3s;
+  }
   
-    h1 {
-      font-size: 1.5rem;
-    }
+  .dropdown-conteudo {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.4s ease, opacity 0.4s ease;
+  }
   
-    .nota h2 {
-      font-size: 1.1rem;
-    }
+  .dropdown-conteudo.ativo {
+    max-height: 500px;
+    opacity: 1;
+    margin-top: 0.5rem;
+  }
+  
+  .dropdown-btn.ativo .seta {
+    transform: rotate(180deg);
   }
   

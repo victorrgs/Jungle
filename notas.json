@@ -1,0 +1,71 @@
+[
+    {"fase": "",
+      "titulo": "",
+      "conteudo": ""
+    },
+    {"fase": "Pré Jogo",
+      "titulo": "Analisando os composição das equipes",
+      "conteudo": "Verifique as composiçoes lembrando que Engage > Poke > Front2Back > Engage, Qual composição escala mais"
+    },
+    {"fase": "Pré Jogo",
+      "titulo": "Analisando Weak-Side e Strong-Side",
+      "conteudo": "Escolhemos em que direção iremos influenciar o Early game na partida"
+    },
+    {"fase": "Pré Jogo",
+      "titulo": "Definindo a(as) Win Conditions",
+      "conteudo": "Pensamos como iremos ganhar a partida"
+    },
+    {"fase": "Pré Jogo",
+      "titulo": "Analisando o jungle inimigo",
+      "conteudo": "Se existe possibilidade de invade, onde ele provavelmente irá começar, o Weak-Side e Strong-Side deles"
+    },
+    {"fase": "Pré Jogo",
+      "titulo": "Escolhemos o Pathing inicial",
+      "conteudo": "Se iremos fazer full clear, 3 Campos e gank, Pathing Extendido"
+    },
+    {"fase": "Pré Jogo",
+      "titulo": "Definimos os objetivos do early game",
+      "conteudo": "Se iremos Jogar para os Dragões ou para as Larvas"
+    },
+    {
+      "fase": "Early Game",
+      "titulo": "Pathing Inicial",
+      "conteudo": "Realizamos o PATHING inicial, um clear ideal é limpar a jungle antes dos 3:30 (Nascimento do Arongueijo) com 1 smite"
+    },
+    {
+      "fase": "Early Game",
+      "titulo": "F Key Dance",
+      "conteudo": "Usamos as teclas F1-F5 para observar as lanes dos quadrantes onde estamos na jungle enquanto realizamos clear"
+    },
+    {
+        "fase": "Early Game",
+        "titulo": "Regra dos 80%",
+        "conteudo": "Priorizamos Gank em vez do clear(ou seja fora do deadtime), quando possuimos pelo menos 80% de chance do gank ser bem sucedido"
+    },
+    {
+        "fase": "Early Game",
+        "titulo": "Trabalhando com Prioridade",
+        "conteudo": "Ao lutar por algum objetivo contestado (Invade, Counter-Invade, Dragon, Grubs, Araut), Devemos sempre checkar por prioridade, para garantir que podemos receber apoio do nosso time, ou lutar com vantagem numérica, podemos aplicar pressão para garantir prioridade a nossos objetivos"
+    },
+    {
+        "fase": "Early Game",
+        "titulo": "Possibilidade de Dives",
+        "conteudo": "Um Dive possui um enorme valor de Early Game, onde podemos ganhar ouro, assim como negar XP, Ouro e Tempo ao inimigo"
+    },
+    {
+        "fase": "Early Game",
+        "titulo": "Usando o  Dead Time",
+        "conteudo": "Quando limpamos todos os campos da jungle, possuimos um tempo livre(Enquanto os mobs nao nascem) para impactar o mapa"
+    },
+    {
+      "fase": "Mid Game",
+      "titulo": "Jogando por objetivos",
+      "conteudo": "Ao chegar no Mid Game(Fim da lane fase / Quebra das Barricadas), devemos sempre possuir um objetivo em mente, e jogar sempre ao redor deles,"
+    },
+    {
+        "fase": "Ganking",
+        "titulo": "Olhando as waves",
+        "conteudo":"Olhe a wave atual e preveja como vai ficar a proxima, que será a wave do gank"
+    }
+  ]
+  

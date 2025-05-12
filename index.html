@@ -8,50 +8,62 @@
 </head>
 <body>
   <header>
-    <h1>J U N G L E</h1>
+    <h1>Notas de Jungle</h1>
+    <p>League of Legends - Estratégias por fase do jogo</p>
   </header>
 
   <main>
-    <section>
-      <h2 class="categoria">📌 Early Game</h2>
-
-      <div class="nota">
-        <h3>Lee Sin - Pathing Inicial</h3>
-        <p>Comece no Red, vá Lobos, Blue e gank Mid ou Top. Use a ward para o W de volta no Red se invadir.</p>
-      </div>
-
-      <div class="nota">
-        <h3>Clear de Amumu</h3>
-        <p>Blue → Gromp → Lobos → Red → Krugs. Depois Scuttle ou gank.</p>
-      </div>
-    </section>
-
-    <section>
-      <h2 class="categoria">⚔️ Mid Game</h2>
-
-      <div class="nota">
-        <h3>Controle de Arauto</h3>
-        <p>Puxe a wave do top aos 13 min, pingue e controle visão do rio com pinks.</p>
-      </div>
-
-      <div class="nota">
-        <h3>Objetivos Secundários</h3>
-        <p>Após o 1º Arauto, rotacione para dragão e torre do bot se possível.</p>
-      </div>
-    </section>
-
-    <section>
-      <h2 class="categoria">🏆 Late Game</h2>
-
-      <div class="nota">
-        <h3>Setup de Barão</h3>
-        <p>Empurre top e mid, pingue 1min antes e coloque visão profunda ao redor do covil.</p>
-      </div>
-    </section>
+    <div id="notas">Carregando notas...</div>
   </main>
 
   <footer>
     <p>Feito por Você • GitHub Pages</p>
   </footer>
+
+  <script>
+    fetch('notas.json')
+      .then(res => res.json())
+      .then(notas => {
+        const container = document.getElementById('notas');
+        container.innerHTML = '';
+        const fases = ['Pré Jogo','Early Game', 'Mid Game', 'Ganking'];
+
+        fases.forEach(fase => {
+          const sec = document.createElement('section');
+          sec.innerHTML = `<h2 class="categoria">${fase}</h2>`;
+
+          notas.filter(n => n.fase === fase).forEach(nota => {
+            sec.innerHTML += `
+              <div class="nota">
+                <button class="dropdown-btn">
+                  ${nota.titulo}
+                  <span class="seta">▼</span>
+                </button>
+                <div class="dropdown-conteudo">
+                  <p>${nota.conteudo}</p>
+                </div>
+              </div>
+            `;
+          });
+
+          container.appendChild(sec);
+        });
+
+        // Ativa dropdowns
+        document.querySelectorAll('.dropdown-btn').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const conteudo = btn.nextElementSibling;
+            const seta = btn.querySelector('.seta');
+            conteudo.classList.toggle('ativo');
+            btn.classList.toggle('ativo');
+            seta.textContent = conteudo.classList.contains('ativo') ? '▲' : '▼';
+          });
+        });
+      })
+      .catch(err => {
+        document.getElementById('notas').innerHTML = 'Erro ao carregar as notas.';
+        console.error(err);
+      });
+  </script>
 </body>
 </html>
