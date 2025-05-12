@@ -8,8 +8,8 @@
 </head>
 <body>
   <header>
-    <h1>Notas de Jungle</h1>
-    <p>League of Legends - Estratégias por fase do jogo</p>
+    <h1>GUIA JUNGLE</h1>
+    <p>Um guia da jungle do league of legends</p>
   </header>
 
   <main>
@@ -17,7 +17,7 @@
   </main>
 
   <footer>
-    <p>Feito por Você • GitHub Pages</p>
+    <p>RGS</p>
   </footer>
 
   <script>
@@ -26,7 +26,7 @@
       .then(notas => {
         const container = document.getElementById('notas');
         container.innerHTML = '';
-        const fases = ['Pré Jogo','Early Game', 'Mid Game', 'Ganking'];
+        const fases = ['Pré Jogo','Early Game', 'Mid Game', "Fazendo Objetivos", 'Gankando', "Team Fight"];
 
         fases.forEach(fase => {
           const sec = document.createElement('section');

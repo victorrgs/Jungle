@@ -33,10 +33,20 @@
       "conteudo": "Realizamos o PATHING inicial, um clear ideal é limpar a jungle antes dos 3:30 (Nascimento do Arongueijo) com 1 smite"
     },
     {
+        "fase": "Early Game",
+        "titulo": "Arongueijo",
+        "conteudo": "Verificamos se vai ter disputa pelo arongueijo baseado no pathing do inimigo, LUTANDO PELO ARONGUEIJO"
+    },
+    {
       "fase": "Early Game",
       "titulo": "F Key Dance",
       "conteudo": "Usamos as teclas F1-F5 para observar as lanes dos quadrantes onde estamos na jungle enquanto realizamos clear"
     },
+    {
+        "fase": "Early Game",
+        "titulo": "Jungle Tracking",
+        "conteudo": "Devemos sempre Rastrear o jungle inimigo, JUNGLE TRACKING"
+      },
     {
         "fase": "Early Game",
         "titulo": "Regra dos 80%",
@@ -60,12 +70,124 @@
     {
       "fase": "Mid Game",
       "titulo": "Jogando por objetivos",
-      "conteudo": "Ao chegar no Mid Game(Fim da lane fase / Quebra das Barricadas), devemos sempre possuir um objetivo em mente, e jogar sempre ao redor deles,"
+      "conteudo": "Ao chegar no Mid Game(Fim da lane fase / Quebra das Barricadas), devemos sempre possuir um objetivo em mente, e jogar sempre ao redor deles, FAZENDO OBJETIVOS"
     },
     {
-        "fase": "Ganking",
+        "fase": "Mid Game",
+        "titulo": "Jungle Bank",
+        "conteudo": "No Mid game os mobs da nossa jungle passam a ser um banco (De gold e xp) onde podemos coletar quando o nosso time não esta exercendo pressão"
+    },
+    {
+        "fase": "Mid Game",
+        "titulo": "Hovering no time",
+        "conteudo": "Geralmente queremos ficar fazendo campos proximo a onde o seu time esta estabelecendo pressão, assim caso ocorra uma luta, estaremos proximos para responder"
+    },
+    {
+        "fase": "Mid Game",
+        "titulo": "Na jungle inimiga",
+        "conteudo": "Podemos aproveitar a Pressão da nossa equipe para conseguir roubar campos da selva inimiga, ou realizar algum pickoff"
+    },
+    {
+        "fase": "Gankando",
+        "titulo": "Verificando a Match up",
+        "conteudo": "Verificamos se possuimos o kit necessario para o gank (Setup, Controle de Grupo) e se o inimigo possui Escape ou Flash"
+    },
+    {
+        "fase": "Fazendo Objetivos",
+        "titulo": "Jogando com o TEMPO",
+        "conteudo":"Devemos verificar o tempo das rotas(Se os outros jogadores, precisam comprar itens, recarregar recursos, estabelecer powerspike), assim como a equipe inimiga"
+    },
+    {
+        "fase": "Fazendo Objetivos",
+        "titulo": "Recursos Disponiveis",
+        "conteudo":"Devemos avaliar todos os recursos disponiveis, tanto seu e do seu time, quando o do inimigo"
+    },
+    {
+        "fase": "Fazendo Objetivos",
+        "titulo": "Trabalhando com as waves",
+        "conteudo":"Durante o Early Game principalmente, devemos garantir que possuimos pressão nas lanes, caso não possuimos, podemos realizar um gank ou aplicar pressão na rota"
+    },
+    {
+        "fase": "Fazendo Objetivos",
+        "titulo": "Adquirindo vantagem numerica",
+        "conteudo":"Garantir prioridade um uma rota pode nos entregar uma vantagem numerica para os objetivos, ja que teremos um jogador a mais na jogada, podemos por exemplo gankar ou desabilitar(fazer com que ele retorne a base ou perca recursos) um jogador inimigo a participar da disputa do objetivo"
+    },
+    
+    {
+        "fase": "Fazendo Objetivos",
+        "titulo": "Pressão no mid",
+        "conteudo":"Principalmente no Mid game, devemos sempre garantir que o mid esta avançado para fazermos objetivos, assim podemos conseguir alguma  vantagem numerica, ou pelo menos mitigar danos caso de errado"
+    },
+    {
+        "fase": "Fazendo Objetivos",
+        "titulo": "Controle de visão",
+        "conteudo":"Sempre exercer o controle de visão dos objetivos wardando e retirando wards (Pit e Banana para Monstros e jungle inimiga para torres)"
+    },
+    {
+        "fase": "Fazendo Objetivos",
+        "titulo": "Possibilidade de roubo",
+        "conteudo":"Devemos sempre ter em mente as possibilidades dos inimigos de roubar objetivos, como por exemplo, Ultimates da jinx, Mordekaiser, Poppy, Kindred, Q do nunu, Executes, puxões,"
+    },
+    {
+        "fase": "Fazendo Objetivos",
+        "titulo": "Garantindo o smite",
+        "conteudo":"Devemos sempre combar o smite com a nossa habilidade que mais da dano exemplo (Q do talon + Smite) para garantir o dano final"
+    },
+    {
+        "fase": "Gankando",
         "titulo": "Olhando as waves",
         "conteudo":"Olhe a wave atual e preveja como vai ficar a proxima, que será a wave do gank"
+    },
+    {
+        "fase": "Gankando",
+        "titulo": "Verificando a visão do inimigo",
+        "conteudo": "Tentamos ver onde o inimigo wardou ou onde ele pode ter wardado, uma ward pode pode acabar com o gank"
+    },
+    {
+        "fase": "Gankando",
+        "titulo": "Possibilidade de Counter Gank",
+        "conteudo": "Se não soubermos onde esta o jungle inimigo, devemos avaliar nossa capacidade de lutar 2x2 ou 3x3"
+    },
+    {
+        "fase": "Gankando",
+        "titulo": "Gankando com eficiencia",
+        "conteudo": "Quando gankamos, devemos sempre ir para o caminho mais curto para onde o inimigo vai tentar escapar"
+    },
+    {
+        "fase": "Gankando",
+        "titulo": "Espere o inimigo realizar o primeiro movimento",
+        "conteudo": "Esperar o inimigo tentar dar um last hit, ou usar uma habilidade-chave pode ser a diferença entre o sucesso e o fracasso"
+    },
+    {
+        "fase": "Team Fight",
+        "titulo": "Composições das equipes",
+        "conteudo": "Devemos ver qual composição as equipes se encaixam no geral, e individualmente para cada jogador"
+    },
+    {
+        "fase": "Team Fight",
+        "titulo": "Nosso papel na luta",
+        "conteudo": "Devemos verificar o nosso papel na juta, ja que isso varia entre Assassinos, Lutadores, Magos, Tanques e Suportes"
+    },
+    {
+        "fase": "Team Fight",
+        "titulo": "Quem esta forte?",
+        "conteudo": "Saber quem esta forte no time inimigo, pode fazer com que mudamos de plano, alvo, lugar"
+    },
+    {
+        "fase": "Team Fight",
+        "titulo": "Manter as rotas avançadas",
+        "conteudo": "Manter as rotas avançadas pode nos garantir torrer ou até mesmo GG depois de uma luta vitoriosa, assim como pode nos evitar uma derrota ao perder uma luta"
+    },
+    {
+        "fase": "Team Fight",
+        "titulo": "Estabelecer Visão",
+        "conteudo": "Precisamos de visão ao maximo para que não haja uma luta desfavoravel ou pickoffs"
+    },
+    {
+        "fase": "Team Fight",
+        "titulo" : "Lute na sua Win Condition da sua equipe",
+        "conteudo": "Extraia ao maximo o poder da sua composição \nPoke: Devemos chegar antes do local da luta, para possuirmos visão e pokearmos o maximo possivel da equipe inimiga ANTES da luta\nEngage precisamos achar um bom pickoff, ou um lugar favoravel para lutar como a Jungle por exemplo\nFront2Back lutar onde exista espaço para kiting e evitar pickoff's e poke gratuito "
     }
+
   ]
   
